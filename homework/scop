@@ -1,0 +1,80 @@
+// x = 1;
+// var a = 5;
+// var b = 10;
+// var c = function (a, b, c) {
+//    var x = 10;
+//    console.log(x); //10
+//    console.log(a); // 8
+//    var f = function (a, b, c) {
+//       b = a;
+//       console.log(b); //8
+//       b = c;   // 10
+//       var x = 5;
+//    };
+//    f(a, b, c);
+//    console.log(b); //9
+// };
+// c(8, 9, 10);
+// console.log(b); //10
+// console.log(x); //5
+
+// console.log(bar);
+// console.log(baz);
+// foo();
+// function foo() {
+//    console.log('Hola!');
+// }
+// var bar = 1;
+// baz = 2;
+
+// var instructor = 'Tony';
+// if (true) {
+//    var instructor = 'Franco';
+// }
+// console.log(instructor);
+
+
+//  var instructor = 'Tony';
+//  console.log(instructor); //tony
+//  (function () {
+//     if (true) {
+//        var instructor = 'Franco';
+//        console.log(instructor); //franco
+//     }
+//  })();
+//  console.log(instructor); //tony
+
+// var instructor = 'Tony';
+// let pm = 'Franco';
+// if (true) {
+//    var instructor = 'The Flash';
+//    let pm = 'Reverse Flash';
+//    console.log(instructor); //the flash
+//    console.log(pm);// reverse flash
+// }
+// console.log(instructor); //tony
+// console.log(pm);        //franco
+
+// let sum = 6 / "3" // 2
+// console.log(sum)
+
+let div = 6 / "3"     //2
+console.log(div);
+
+let mult = "2" * "3"   //6
+console.log(mult);
+
+4 + 5 + "px"   //9px
+"$" + 4 + 5    //$45
+"4" - 2     //42
+"4px" - 2   //4px2
+7 / 0       //infinito
+{}[0]
+parseInt("09") //9
+5 && 2      //5
+2 && 5      //2
+5 || 0      //5
+0 || 5      //0
+[3]+[3]-[10]   // -1
+3>2>1    //true
+[] == ![]   //false
